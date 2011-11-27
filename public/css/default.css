@@ -1,0 +1,294 @@
+/* 
+    Document   : default
+    Created on : Oct 24, 2011, 8:59:19 AM
+    Author     : steven
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#custom-doc {
+	margin:auto;
+        text-align:left; /* leave unchanged */
+	width:92.30em;/* non-IE */
+	*width:90.08em;/* IE */
+	min-width:800px;/* optional but recommended */
+        font-size: 13px;
+        padding: 10px;
+        border: 1px solid silver;
+        background-color: #fff;
+}
+
+#left {
+    width:230px;
+    margin-right: 20px;
+}
+
+#center {
+    width:720px;
+    margin-right: 30px;
+    border:1px solid silver;
+    padding:10px;
+    border-radius: 10px;
+}
+
+#center table {
+    white-space:nowrap;
+}
+
+#right {
+    width:164.5px;
+}
+
+
+root { 
+    display: block;
+}
+
+html {
+    background-color: #f0f0f0;
+    
+}
+body {
+    behavior:url("/css/hover.htc");
+    font-family: verdana;
+    background-color: #f0f0f0;
+}
+
+#ft {
+    border-top: 1px solid silver;
+}
+    
+#header {
+    border:1px solid silver;
+    background: url(/images/topbg2.jpg) repeat-x top;
+    margin-bottom: 15px;
+    padding: 20px 20px 25px 20px;
+    height:70px;
+}
+
+#header img {
+    margin-bottom:10px;
+}
+
+#header ul{
+    border-top:1px solid silver;
+padding:0;
+margin:0;
+width: 100%;
+
+}
+
+#header li{
+position: relative;
+float: left;
+list-style: none;
+margin: 0;
+padding:2px;
+} 
+
+#header li a{
+margin:0 20px;
+height: 29px;
+display: block;
+text-decoration:none;
+text-align: left;
+line-height: 30px;
+color:#000;
+padding: 0 10px;
+font-size: 13px;
+}
+
+
+#header ul li:hover{
+    background:url(/images/menubghover.png) repeat-x top;
+}
+
+#basket {
+    border:1px solid #666;
+    background:#fff url(/images/headerbg.jpg) repeat-x top;
+   
+    margin-bottom: 20px;
+}
+
+#basket span {
+    color:white;
+    font-weight: bold;
+    padding:10px 15px;
+    line-height: 25px;
+}
+
+#basket table {
+    margin:10px;
+    font-family: Helvetica;
+}
+
+#basket th {
+    font-size: 8px;
+    color:#999;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#basket td{
+    padding:4px;
+    color: #666;
+}
+
+#basket tr:last-child td{
+    padding:4px;
+    color:#000;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+#basket tr{
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#basket td.one{
+    width:140px;
+}
+
+#basket td.two{
+    width:5px;
+    text-align: right;
+}
+
+#basket td.three{
+    width:15px;
+    text-align: right;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#basket h4 {
+    padding: 5px 10px;
+    font-weight: bold;
+    background:#fff url(/yui/build/assets/skins/sam/sprite.png) repeat-x left -1400px;
+    color:#fff;
+}
+
+#tab2 {
+    padding:16px;
+    background:#fff;
+}
+
+.yui-u h1 {
+    padding: 0 15px;
+    color:#333;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.yui-nav li {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.slideshow {
+	width: 665px;
+	height: 340px;
+	margin: 0px;
+	overflow: hidden;
+}
+.slideshow img {
+	background: #c0dfff;
+	border: 1px solid #99b3cc;
+	border-radius: 10px;
+}
+
+ul.nav {
+	float: left;
+	width: 180px;
+	margin: 0;
+	padding: 0 20px;
+	list-style: none;
+	background: #005094;
+	border-bottom: 1px solid #3373a9;
+	border-top: 1px solid #003867;
+}
+ul.nav li a{
+        display: block;
+	color: #fff;
+	text-decoration: none;
+	width: 155px;
+        font-weight: bold;
+        font-size: 12px;
+	padding: 5px 10px 5px 5px;
+	background: url(sidenav_a.gif) no-repeat 5px 7px;
+	border-top: 1px solid #3373a9;
+	border-bottom: 1px solid #003867;
+ 
+}
+
+ul.nav li a:hover {
+	background: #003867 url(sidenav_a.gif) no-repeat 5px 7px;
+	border-top: 1px solid #1a4c76;
+}
+ul.nav li span  {
+        display: none;
+        font-weight:normal;
+}
+ul.nav li a:hover span {
+	display: block;
+	font-size: 0.9em;
+	padding: 10px 0;
+}
+
+#left img {
+    margin: 20px;
+}
+
+.yui-carousel .yui-carousel-item-selected
+{
+border:none;
+margin:0;
+outline: none;
+}
+
+.yui-carousel-nav {
+    display:none;
+}
+
+#carousel {
+    margin: 0;
+    padding: 0px;
+    }
+
+#carousel,#carousel ol li{
+    border:none;
+    margin: 0;
+    padding: 0px;
+}
+
+#carousel ol li img {
+    border: 1px solid black;
+    width: 635px;
+    height: 320px;
+}
+
+.yui-skin-sam .yui-dt-liner {
+    text-align: right;
+}
+
+.flow {
+    background-color: #333;
+    color:#FFF;
+}
+
+
+.flow .yui-u {
+    padding:5px 10px;
+    line-height: 13px;
+}
+.desc img {
+    padding:10px 0;
+}
+
+.desc-item {
+    padding:10px;
+}
+
+.yui-u #tvcontainer ul.yui-nav {
+    text-align: right;
+}
+
+

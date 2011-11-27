@@ -1,0 +1,158 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" />
+  <title>Dev</title>
+
+        <link rel="stylesheet" type="text/css" href="/yui/build/reset-fonts-grids/reset-fonts-grids.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/assets/skins/sam/button.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/container/assets/skins/sam/container.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/datatable/assets/skins/sam/datatable.css"></link>        
+        <link rel="stylesheet" type="text/css" href="/yui/build/assets/skins/sam/resize.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/tabview/assets/skins/sam/tabview.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/assets/skins/sam/layout.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/calendar/assets/skins/sam/calendar.css"></link>
+        <link rel="stylesheet" type="text/css" href="/yui/build/carousel/assets/skins/sam/carousel.css"></link>
+        <link rel="stylesheet" type="text/css" href="/css/default.css"></link>
+        
+        <script type="text/javascript" src="/yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+        <script type="text/javascript" src="/yui/build/connection/connection-min.js"></script>
+        <script type="text/javascript" src="/yui/build/element/element-min.js"></script>
+        <script type="text/javascript" src="/yui/build/tabview/tabview-min.js"></script>
+        <script type="text/javascript" src="/yui/build/button/button-min.js"></script>
+        <script type="text/javascript" src="/yui/build/dragdrop/dragdrop-min.js"></script>
+        <script type="text/javascript" src="/yui/build/container/container-min.js"></script>
+        <script type="text/javascript" src="/yui/build/resize/resize-min.js"></script>
+        <script type="text/javascript" src="/yui/build/animation/animation-min.js"></script>
+        <script type="text/javascript" src="/yui/build/layout/layout-min.js"></script>
+        <script type="text/javascript" src="/yui/build/datasource/datasource-min.js"></script>
+        <script type="text/javascript" src="/yui/build/event-delegate/event-delegate-min.js"></script>
+        <script type="text/javascript" src="/yui/build/datatable/datatable-min.js"></script>
+        <script type="text/javascript" src="/yui/build/calendar/calendar-min.js"></script>
+        <script type="text/javascript" src="/yui/build/carousel/carousel-min.js"></script>
+        
+</head>
+<body class="yui-skin-sam">
+    
+    <div id="custom-doc">
+        <div id="header"><img src="/images/stahls.png" />
+        <ul>
+<li><a href="/">FORSIDE</a>
+</li>
+<li><a href="#nogo">PRODUKTER</a>
+</li>
+<li><a href="#nogo">INFORMATION</a>
+</li>
+<li><a href="#nogo">SUPPORT</a>
+</li>
+<li><a href="#nogo">KONTAKT</a>
+</li>
+
+</ul>
+        </div>
+    
+        
+    <div class="yui-g">
+        <div class="yui-u first" id="left">
+            <ul class="nav">
+            <li>
+		<a href="#">Skilte
+                    <span>Alle slags skilte. Reflektive, Graveret, Fascade skilte</span>
+		</a>
+	</li>
+	<li>
+		<a href="#">Visit Kort
+		<span>Din personlige profil - Forskellen mellem success & fiasko </span>
+		</a>
+	</li>
+	<li>
+		<a href="#">Stor Format Print
+		<span>Blandit turpis patria euismod at iaceo appellatio, demoveo esse. Tation utrum utrum abigo demoveo immitto aliquam sino aliquip. </span>
+		</a>
+	</li>
+        <li>
+		<a href="#">Bannere
+                    <span>Polyester & PVC Bannere digital trykt i photo kvalitet </span>
+		</a>
+	</li>
+            </ul>
+            
+            <img src="/images/products/cards.png"/>
+        </div>
+        
+       
+<div class="yui-u first" id="center">
+    <div class="testclass">Test text</div>
+</div>
+    
+    
+    <!--
+     
+    -->
+        <div class="yui-u" id="right">
+            <div id="basket">
+                <span>Basket</span>
+                <table>
+                    <tr>
+                        <th>item</th><th>Qty</th><th>Price</th>
+                    </tr>
+                    <tr>
+                        <td class="one">T-Shirt - Black</td><td class="two">2</td><td class="three">&pound;49.00</td>
+                    </tr>
+                    <tr>
+                        <td class="one">T-Shirt - Black</td><td class="two">2</td><td class="three">&pound;49.00</td>
+                    </tr>
+                    <tr>
+                        <td class="one">T-Shirt - Black</td><td class="two">2</td><td class="three">&pound;49.00</td>
+                    </tr>
+                    <tr>
+                        <td class="one" colspan="2">Total :</td><td class="three">147.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="newsletter">
+                <img src="/images/products/deals.jpg"></img>
+            </div>
+        </div>
+    </div>
+    
+
+
+        
+        
+<div id="ft">
+            <a href="/index/privacy">Privacy Policy</a> | <a href="/index/terms">Terms of Use</a> | <a href="/index/tm">Permissions &#38; trademarks</a><br />
+
+Copyright &#169; 2007-2011 Kindlev Entreprise. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+<script>
+    
+(function () {
+       var Dom = YAHOO.util.Dom,
+        Event = YAHOO.util.Event,
+        layout = null;
+        
+    YAHOO.util.Event.addListener(window, "load", function() {
+    
+    });    
+        
+    var changeFont = function() {
+        
+      alert(Dom.getElementsByClassName('testclass')[0].innerHTML);
+      
+    };    
+        
+        
+    Event.onDOMReady(function() {
+    changeFont();
+    });
+    
+})();    
+    
+</script>
+</html>
+
